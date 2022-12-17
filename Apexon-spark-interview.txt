@@ -1,0 +1,8 @@
+OLTP vs OLAP
+Datawarehouse - Dimension vs Facttables(key column, measer of columns-kind of meta data)
+Row vs Column security
+Expeculative execution
+what is spark-job 
+What is Mapp -vs Reduce (Mapper and Reducer)
+Broadcast variable
+

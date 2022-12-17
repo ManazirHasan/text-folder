@@ -1,0 +1,84 @@
+Statically typed (feel like dynamic typed)
+Syntax inference - val or var 
+Explicitly define
+var = Immutablibility 
+val= Muttable ( but dosn't effect type safety,if we change it gives an error,)
+
+//Note: evern mutable but data type can't change, it is statically typed language, 
+var temp=10.23
+temp=3.2
+temp="cool"
+//gives error ,  but it works in python coz it is dynamically typed language
+
+Byte
+Short
+Int
+Long
+Float
+Double
+String
+Boolean
+
+Unit- Not hold any value(Void)
+
+void m(){}
+def m():Unit={}
+val retVal= m()
+>retVal- nothing value
+
+***************************
+String 
+
+String Interpolation
+	s() vs f(float) vs Raw) Interpolators
+
+var celebrityName="Hello"
+var perName="Hi"
+s"my favourite actor is $celebrityName and hist pet name is ${petName.toUpperCase}"
+
+String split()
+
+
+
+			Any
+	AnyVal			AnyRef
+	
+	Unit			Class	
+	Boolean			Seq
+	Char			List
+	Float			Option
+	Int				String	
+	Short
+	
+
+
+
+Object A {
+def main(args: Array[String]):Unit{
+   var i=0;
+   while(i<10){
+   pring(i)
+   i=i+1;
+   }
+   
+   for(i <- 1 to 5;j <- 6 to 10 ){
+		print(i)	
+   }
+   
+   
+ 
+}
+macronut and GraalVM
+
+//there is no break or countinue in scala
+def printPrimes(){
+   val listValue = List(2,3,4,5,6)
+   for(i <- listValue){
+       if(i== 6 )
+	   return 
+   }
+   
+   }
+
+}
+

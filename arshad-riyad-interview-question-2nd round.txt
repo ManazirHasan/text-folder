@@ -1,0 +1,31 @@
+Distributed transaction -Is data base always required ?
+trasaction level
+multiple  
+ACID properties
+Isolation - level
+dirty read
+phantom dirty
+propegation level
+required new
+locking 
+when get lock
+
+joins - self ,  inner joins
+
+relation - isolation level vs locking 
+
+read uncommited - no lock required
+
+record - 
+
+stream api- terminal(action) or non terminal 
+
+Threading -  
+
+virtual thread - concept
+
+reduce - steam count (a++ , ++a)
+
+sql - min , max, aggr, deterministic and non deterministic 
+
+durability in acid -how do you achevie it.

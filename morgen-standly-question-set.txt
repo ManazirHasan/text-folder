@@ -1,0 +1,92 @@
+hashcode - 12345%8, - 6
+hashcode = 34521%8  - 6
+
+linle = l1,l2,l3,l4,l5
+	
+			rooot
+		123       3245
+	12		323   12   234
+			
+
+Core Java -Collections treefy- max 8 , concurrency (internal), Generics.
+
+JAVA 8 Coding  -  Map(), groupBy, Comparator,
+java syntax and code snippet questions - 
+Write Multithreading coding - Prod,Consum, print senior -CountdownLatch, Semaphore,
+
+Providing design solutions- System desing 
+Spring framework - Scope of spring bean, protope, 
+Object Creation(types of creation,Creational design pattern ), Ellipses operator(varg ... three dot , varg should be the last paramter in method if more then one parameter), 
+Try with resources etc. - 
+
+java 7- don't have to close the rescourses 		 explicitly in finaly block
+Which resouces are auto close- those resouces which implement Closable interface are eligible ?
+
+
+Executor Service - Thread pool
+
+Fundamental Parent, Child Object relationships has a and is a 
+
+Write an immutable class- copyconstructure , 
+
+Data Structure
+
+Access specifiers
+Singleton design and ways to solve this, Anonymous Class design,
+
+Various Locking Mechanism - Synchronised, Reentrant lock
+
+Object Relationship, Design Pattern, Serializable, Cloneable, Immutability, 
+
+Rest API design,
+
+Anonymous Vs Lamba  - 2,3 difference 
+https://www.geeksforgeeks.org/difference-between-anonymous-inner-class-and-lambda-expression/
+
+Hibernate  - Persistance Context(),Managed, Detaced, n+1 issue, lazy and eager loading 
+Order - Product
+Student - subject
+
+HashMap internals, singleton, class immutability, Abstract Class, Interface, 
+
+Exception Types- FileNotFound- 
+
+CustomeException should always be Runtime exception
+Anyclass extend Exception become CheckedException(comiple)
+
+Web standards and 
+
+Spring Interceptors and Filters -- ??
+
+kubernetes, docker and AWS
+
+Microservice Design - Design strategy
+
+Data analytics and data science - 
+
+Internal working of enum
+
+*****************************************************************************
+Set: 2
+Singleton Design patterns and how you can break the pattern. z
+How can you save your singleton class from breaking?
+Design Pattern
+Singleton
+Factory
+Delegate design pattern. [ Chain of Responsibility ]
+Exception handling
+Throws: Which design pattern is used when you delegate the exception handling responsibility to the caller.[Class Loader, Bootstrap, Extention, ext-folder -applcation file ]
+Throw
+Try catch
+Checked Exceptions
+Design a Thread safe Singleton class
+Design an Immutable class. 
+Give examples of Immutable classes provided by Java.
+Spring -
+Interceptors and filters - for adding custom filtering logic-
+Cros - enabling cross origin requests for a Restful webservice
+Deployment of web application using tomcat server
+Threads Coding exercise.
+What is a Thread Local class
+Loading sequence of static and non static members of a class
+Web standards and Spring Interceptors and Filters.

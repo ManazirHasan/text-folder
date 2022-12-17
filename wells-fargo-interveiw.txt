@@ -1,0 +1,15 @@
+1) Df1- how to change all the schema type in one short 
+2) df1 (2 different columns ) and df2(3 different olumns) - how to you merge it
+3) df - convert all null  to some values -  in all rows and then take 1000 rows 
+4) Convert df to array 
+5) is df is store in in memory , if no action call, then where it is  ?
+
+6) script - get url and then convert into gz and apply df on it.
+
+7 ) Not worked in scala and python - so no way to use.
+
+how do you do catelyesed optimizer technique ?
+
+Elastic search how do you use ?
+
+we get two schema and then merge 

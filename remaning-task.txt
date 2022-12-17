@@ -1,0 +1,96 @@
+Task to do fast
+1) All microservices revise and note it done
+2) 
+
+
+Java 8 features
+core java - serialization/immutable/exception princible/clonable/ (overwriting/)/ custom eexception handling /creation of custome exception/ try with resouces
+(Auto close) - closenable interface/supress exception(array add)/equal vs hashcode / comparable vs comparator /Generic use/
+
+SuppresedException in java 7
+@Override
+varargs -- ...(elipses)- 
+Date API - Joda library
+
+Date - immutable before java 8 - now it is immutable 
+
+Sql and util package
+
+Lambda expression- utility methods 
+
+Method Refrence vs instance methods
+'
+intermediate - return stream- itis lazy - 
+
+it is type of function interface - 
+
+Predicate- true or false -  - 
+
+Supplier/Consumer /function/Predicate-
+Type
+
+
+Collection api 
+java 8 
+Concurrency, 
+spring boot and spring 
+Desing patter and system desing 
+
+
+Marker interface or empty abstract class
+ #sometimes you need a base class for implement polymorphism.
+
+Abstract class vs Interface
+
+we are defining characteristics of an object type; specifying what an object is.
+
+define capabilities that we promise to provide, 
+we are talking about establishing a contract about 
+what the object can do.
+
+When to use abstract classes and when to use interfaces
+
+Use abstract clases and inheritance if you can make the statement “A is a B”. 
+Use interfaces if you can make the statement “A is capable of [doing] as”, or also, 
+abstract for what a class is, interface for what a class can do.
+
+Abstraction(Implementation hide by using abstract or interface ) vs Encapsulation(data hide and binding by using getter or setter)
+
+
+Is a vs Has a
+
+Composition vs Aggregation
+
+Design princible: Solid dry kiss princible.
+
+Design patterns/java
+
+https://refactoring.guru/design-patterns/java
+
+static <T extends Comparable<? super T>> void sort(List<T> list) {}
+public static <T> void sort(List<T> list, Comparator<? super T> c) {}
+
+**************************************
+
+jpa/microservice -decompose -
+
+/oracle - distributed transaction , acid prop, monolit(domain specific decompose )
+
+java - 
+
+jpa / one to many relation/  
+
+spring developer - 
+
+sprig boot  - 
+
+spring vs spring Boot
+
+indexes - primery key makes uid ()
+
+Atomocity - ACID
+
+
+
+
+

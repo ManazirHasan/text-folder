@@ -1,0 +1,14 @@
+Explain Spark architecture
+Explain the difference between RDD, Dataframe, and Dataset?
+What is an RDD, and how it works internally?
+What is the difference between map and flatMap?
+What is "Lineage Graph" in Spark?
+What is SparkSession ?
+What are the benefits of DataFrames ?
+How to accumulate Metadata in Apache Spark?
+How is fault tolerance achieved in Apache Spark?
+Explain the difference between reduceByKey, groupByKey, aggregateByKey and combineByKey?
+What are the Configuration properties in Spark?
+What is the difference between Apache Spark and Apache Flink?
+How to enable tungsten sort shuffle in Spark 2.x?
+How to allocate the memory sizes for the spark jobs in the cluster?

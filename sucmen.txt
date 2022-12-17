@@ -1,0 +1,68 @@
+
+Find first non-repeating character in a string
+String str=”abcaaghbhfk”;
+
+Charector[]strChar = str.toArray();
+LinkedHastMap<String,Integer> map = new LinkedHastMap()
+
+int i=0
+while(i<strcharlenght){
+
+
+if(notcontain){
+//
+
+}else {
+
+
+}
+
+i++;
+
+}
+
+
+//iterate HashMap
+
+
+
+
+Spring-boot
+
+
+@RestController
+public class UserController {
+
+
+@GetMapping
+ResponseEntity<Object> fetchUser(String id){
+
+//call the call //Server / DAo layer
+
+return Response.(new User()
+
+}
+
+
+}
+
+
+Immutable
+
+String
+Colleectsion.
+
+
+
+public class Singlotn
+
+private static Singlotn ss = new Singlotn()
+
+static Singlotn getObject(){
+	
+	sychrozee (object){	
+	retrun ss;
+	}
+}
+
+}

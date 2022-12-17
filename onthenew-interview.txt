@@ -1,0 +1,39 @@
+
+
+Stackoverflow
+
+void m(){
+m();
+}
+
+Why need 2nd level cache - Quesry levelcache(SessionFacory levelcache)
+ Rest API if fetch multiple times how to avoid to ht in DB.
+
+Security in rest yu implements then api level
+
+May be he is expecting - (application level )
+
+2) If db url is empty then why it throws Network Error
+3) Why Spring has singlton object
+4) 
+
+one user can have multiple address 
+
+table user
+
+user_id user_name  
+u1			Mana   
+u2          Arshad    2
+
+
+table address 
+
+address_id  addres_loca  user_id 
+1		      pue         u1
+2		      Delhi
+
+
+
+
+
+

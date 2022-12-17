@@ -1,0 +1,78 @@
+1.Oops & Design Principles and Design Patterns:
+
+a. Prepare around encapsulation, Abstraction, polymorphism, inheritance, low coupling, high cohesion, open closed principles, inversion of control etc.
+
+b.In depth understanding of GOF design pattern such as builder, decorator, singleton, factory etc. OOad,
+
+2.Problem solving:
+
+a. Heapsort, searching, hashing, graph, and caching algorithms
+
+3.Core Java:
+
+a. Solid principles Time & space complexity, Access Modifier, enums, final keyword usage, Call backs, etc.
+
+b.Fundamentals: Standard and Advance libraries, IO Package, Buffered streams, Cloning (deep vs Shallow), serializations, various classes (immutable, anonymous, abstract, generic etc.)
+
+c. Collections: Internal working of Tree set, hashmap, Hastable, concurrent hashmap, blockingqueue, priorityqueue etc., equals & hashcode contract, faisafe & failfast iterators, comparable/comparator.
+
+d.Multithreading: Thread states, deep understanding of sync, wait, notify etc. Deadlock, reentrantlock runnable, executor framework, thread pool, fork/join latch barrier.
+
+e.JMM: Garbag collection,  heap structure etc., full/partial/parallel GC, class loading, JVN config
+
+f.  Java 8 features: Lambda expressions,  Steams, functional interfaces, Completable future, generics, lazy streams, parallel and serial streams, Predicate,
+
+g. Java 9 features (what are the new features as compared to Java 8)
+
+4.API Development- Rest Principles, Open API spec, Hateos,versioning, pagination, fine grain vs Coarse grain APIs in business & backend context. contract 1st approach using Open API spec
+
+5.Databases:
+
+a. Any RDBMS or NoSql- able to write sql queries using innerjoins, outerjoins, aggregate functions, groupby, having clause, JDBC concept, tables, query tuning, indexes, one to many. Many to many, data modeling and Sharding
+
+6.Other skills:
+
+a. Active MQ, RabbitMQ/Kafka: Working knowledge/functioning, JMS concept & component, annotations, xquery, xpath
+
+b.Spring rest Web services: HTTP, rest principal, annotations, MVC, rest API development
+
+c. Spring core and boot: AOP, IoC, Bean cycle, autobean wiring, DI, spring config files
+
+d.Hibernate/JPA: CRUD operation, 1st, 2nd level caching,
+
+7.Monitoring and auditing tools: ELK Stack / Grafana / splunk/ Redis/ graphite/ filebeat/ sentry etc. working knowledge/functioning-How to setup kibana dashboard
+
+8.Logging framework: Log4j, SLF4j, logging level in java.
+
+9.JUnit and Mockito- Unit testing controllers, key annotations, test suites, powermock, mocking
+
+10.   Build & Release tools: Maven, gradle/Jenkins, ci/cd practices
+
+11.   Performance testing; Application and srver profiling, tuning, monitoring, tools like- Jprofiler, Jmeter, Jconsole, loadrunner, jvisual
+
+12.   Basics of Unix scripting/commances: knows writing script to manage file system, editing files, transferring data, exp with perl/shell/bash etc
+
+13.   Microservices: (Anyone of these patterns ) - Orchestration Patterns, Choreography Patterns and Command Pattern in Microservices, Bounded Context, Domain model(Fat Domain , Aneamic Domain),Transaction (Cancel, Rollback, compensating), CQRS Patterns (Database. Choice of DB, stratgy to apply) and Event sourcing in Microservices, Integration Patterns , Enterprise Service Bus and  API Gateway Architecture (API Layering and purposes, experience with one), Application/API Security (Authentication ,Authorization, grant types, JWT ), IAM Integration, API Gateways.
+
+14.   Devops(CI/CD: Maven/Gradle, Jenkins, Quality plugins, Good to have- Docker and Kubetnetes
+
+15.   Good to have- Cloud experience- Deployment or Development or Provision using Terraform/ORM, Any cloud service will do. Basic cloud services to deploy and scale application over VM/Containers , having used cloud IAM services, serverless computing, storage services and monitoring to build apps, debug/troubleshoot and view/export Logs
+
+
+https://www.journaldev.com/2389/java-8-features-with-examples
+https://www.baeldung.com/solid-principles
+https://www.infoq.com/articles/java-profiling-with-open-source/
+https://medium.com/platform-engineer/guide-to-java-profilers-e344ce0339e0
+https://www.javacodegeeks.com/2016/05/understanding-transactional-annotation-spring.html
+https://www.linkedin.com/learning/spring-boot-essential-training/what-you-need-to-know?u=2130370
+https://www.linkedin.com/learning/learning-rabbitmq/the-exchange-types?u=2130370"
+https://dzone.com/articles/the-java-synchronizers
+https://medium.com/javarevisited/java-concurrency-executors-fa2307ed7f80
+https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/
+https://beyondcorner.com/fork-join-java-multithreading/
+https://www.linkedin.com/learning/spring-messaging-with-jms
+https://examples.javacodegeeks.com/rabbitmq-tutorial-for-beginners/
+https://activemq.apache.org/hello-world
+http://cloudurable.com/blog/kafka-tutorial-kafka-producer/index.html
+https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries  
+https://medium.com/javarevisited/design-patterns-for-beginners-with-java-examples-4f32c8e5b994

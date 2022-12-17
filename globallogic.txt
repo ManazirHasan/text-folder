@@ -1,0 +1,45 @@
+
+Code review - LexicoComplicity
+Congnitive conplexity - method () -- 
+
+How to write test cases - 
+
+m(Integer x ){
+
+//3 --9
+
+//9 -- 3
+
+
+retun x ;
+
+}
+
+A(){
+
+}
+
+what is Listream API - 
+
+x = List 3,6,6 O(nlog(n))
+How to find duplicate values from list using java 8 
+
+Global logic
+
+Builder design pattern, Singlton desing pattern(user of singloton object)
+
+How to create @ -Annotations in java
+
+
+3 gives 9 and 9 gives 3
+Exception in Spring boot @ControlAdvise
+AOP- 
+How to know multiple instances of objects create
+
+Oracle-  index - how it fetch- what data structure it uses
+
+
+
+
+
+

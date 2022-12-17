@@ -1,0 +1,6 @@
+*1) ClientID/Secret/Tenet -API save in unix file 
+2) Code clean and refator 
+*3) Call Azure ADK folder or using using hdfs system
+4) git up code and checked in 
+*5) Check oozie job submit 
+6) ingress and egress 
