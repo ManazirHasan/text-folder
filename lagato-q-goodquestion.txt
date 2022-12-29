@@ -1,0 +1,21 @@
+1,6,0,3,-5,-5,0,10
+Emp - id, departname, salary 
+
+Emp (1,d1,50000)
+Emp(2,d2,10000)
+Emp(3,d1,20000)
+
+d1-70000
+d2-10000
+
+
+0-5-52178
+-5-501278
+1) request Json before controler -intercepter -how it works
+2) How Auth2 works 
+3) Spring config server - application proper to externalize
+4) What is load 
+4) How it onborad your application- on spring security -not consumer/ producer point of view
+5) FileReader read line by line - Multiple thread - how to confirm all threads finish there works
+6) Have you worked on kafka/messaging-
+7) how loggin works 

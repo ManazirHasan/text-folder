@@ -1,0 +1,108 @@
+Transction: Manage changes in one or more systems -Databases, message brokers,any other system
+           It provide ACID charecteristics-(acronomy of Atomocity,Consis,Isol,Durab)
+		   deactivate autocommit, 
+Propagation: Carry forwarding to open transaction to next level -service to repo - 
+            trying to resue the transaction
+			
+Required : support(join) a current transaction, create one if none exists
+
+Required new : Create a new transaction, and suspend the current or existing transasction if one exists.
+
+Supports- A (join)current or existing transaction, if transaction not exist then execute non transactionally .
+Not_supported: Execute non transactionally(it doesn't join the exisitng trans), suspend the current or existing transaction if one exists 
+
+
+Never: Execute non-transactionally and never allow existing transaction, throw an exception if a transaction exists.
+Mandatory :Must be under a under active or existing transaction(must be under current transaction),
+           Must support a transaction throw exception if non exists
+		   Exception if current process is not under transaction-"No existing transaction found for transaction marked with propagation 'mandatory'
+
+NESTED(6);
+
+
+
+
+
+Isolation level [think in context of two session i.e session1(transaction1) vs session2(transaction2) ]
+
+DEFAULT(-1),
+READ_UNCOMMITTED(1),
+READ_COMMITTED(2),(oracle default) 
+REPEATABLE_READ(4),(mysql default)
+SERIALIZABLE(8);
+
+Issue with Read Phenomena like -
+      Dirty Read
+	  Non repeatable read
+	  Phantom read
+
+Read_uncommited(no isolation) --Reading any data(commited/uncommited) - Dirty read chance
+session1												session 2
+  something change but not commit						it reflect here from session1 and it then commit;
+  then rollback                                           
+  
+Read_Commited --Reading only commited data -
+		resolve Dirty read problem but(comes new problem with non repeatable read data problem)
+session1											session 2
+  something change but not yet commit				it reflect here from previous commit and 
+	then commit										then can see again new committed after some time data-
+	                                                (nonrepeatable  data on same transaction within session)
+													
+
+REPEATABLE_READ --The transaction with make sure that when a query reads a row,
+                 that row will be remain unchanged untill it is running.		
+session1											session 2
+  something change but commit/uncommit				it reflect here from previous commit and 
+											        then counitnue on same data irrespective of other transaction commit or not  
+
+  
+Oracle only supports 3 transaction levels: Read Committed, Serializable, and Read-only. 
+In Oracle, Read Committed is the default and it uses Snapshot semantics.
+
+https://docs.oracle.com/javadb/10.8.3.0/devguide/cdevconcepts15366.html
+
+
+DB LOCKING - Pessimist lock and Optimist lock
+
+
+
+Spring Annotation
+
+@SpringBootConfiguration
+@SpringBootApplication
+@Bean
+@Scope
+@NoRepositoryBean
+@Conditional
+
+AOP
+@Aspect
+@PointCut
+@Transction
+@Before
+@Around
+@After
+
+spring security
+
+@Secure
+@PreAuthorized
+@PostAuthorized
+@EnableWebSecurity
+
+MVC
+@PutMapping
+@Put
+@DataJpaTest
+@DataJpa
+@RequestMapping
+
+
+
+
+
+
+
+
+
+
