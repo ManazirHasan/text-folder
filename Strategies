@@ -1,0 +1,78 @@
+**********************************Daily*************************************
+RV Revision: Vocal - 1-2 hours[2pm to 4pm ]
+    Design pattern, Java concept,Spring concept,Hibernate,Spring Boot, Rest service, Microservice,
+
+RP Revision: Programming  - 2-3 hours-[9am to 10 am, 9pm to 10 pm ]
+    All desing pattern,spring Boot, Spring microservice, Java multithreading.
+
+New topic: 3-4 hours [11am to 1 pam]
+    System desing and Microsercie pattern, Spring security, Kubernates, Hibernates
+
+
+New algorithm: 3 hours[ 1pm to 2pm , 7 to 9pm]
+
+Java 8 and all core java and spring MUST BE READY By Saturday - 24th Dec
+
+
+Video recording : and listen
+
+****************************************************************************
+Spring Boot3 JUICE(Join Us In Creating Excitement ) -https://dashaun.com/
+Spring Boot with GraalVM
+
+https://www.youtube.com/watch?v=HY4kTCNKwxk
+https://www.youtube.com/watch?v=hAHXp_jQWVo&list=PLgGXSWYM2FpPj-rR278PbyoOLQNyEr-Gi&index=7
+https://www.youtube.com/watch?v=mitWK_DwKGs&list=PLgGXSWYM2FpPj-rR278PbyoOLQNyEr-Gi&index=2
+https://www.youtube.com/watch?v=3NcmlrumSOc&list=PLgGXSWYM2FpPj-rR278PbyoOLQNyEr-Gi&index=9
+use as backend application-without any problem
+
+curl https://httpbin.org/uuid
+Spring Cloud Gateway and demonstrate a variety of features, such as weighted routing, circuit breakers, rate limiters, and more.
+
+spring-boot-starter-[actuater,jpa,web-flux,security]
+managerment.server.port=9090
+mvn spring-boot:build-image
+
+Jakarta EE9/10(jakarta namespace) : javaee/or javax to jakarta
+sevelet,persistance,bean delegation(javax.validation to jakarta.validation)
+javax ===jakarta
+
+native build
+./mvnw -Pnative native:compile
+AOT(Ahead-Of-Time) :- (Improving startup time, and resource consumtion )Shifting preperation of computation at build time rather runtime
+Virtual Thread-(Project loom
+
+Virtual Thread: Not blocking an operating system thread on I/O operations
+        Decouple the JVM thread with Operating system threads.
+
+loom vs reactive programming-
+loom-friendly imperative WebClient
+
+
+****************************Microservice Architecture****************
+
+https://www.youtube.com/watch?v=PpW5aPfw06I
+https://12factor.net/
+https://dzone.com/articles/microservices-and-conways-law
+https://www.youtube.com/@Java.Brains/playlists
+
+Distributed
+Scalable
+Resilent
+Automated
+Organizational(Conway's Law)
+Replaceable
+
+
+Sample Architecture
+
+Circuit breaker
+client
+API gateway - route
+Configuration server- centrlaize server accross all the services
+Distributed configuration
+Service Discovery
+Metrics
+
+SErvice Mesh - how to controll and access
+
