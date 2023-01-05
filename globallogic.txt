@@ -37,9 +37,3 @@ AOP-
 How to know multiple instances of objects create
 
 Oracle-  index - how it fetch- what data structure it uses
-
-
-
-
-
-
