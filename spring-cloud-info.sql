@@ -1,3 +1,8 @@
+https://www.youtube.com/watch?v=XaD-kHb5Ju8&list=PLSg8jHkYTg9GE6ZdA79H59QLJ0bwZFDju
+https://developers.redhat.com/blog/2018/10/01/patterns-for-distributed-transactions-within-a-microservices-architecture#
+https://www.linkedin.com/learning/spring-cloud/service-discovery?autoplay=true&resume=false
+
+
 DaShaun Carter -Spring developer
 
 Dan Vega
@@ -60,7 +65,7 @@ Distributed
 Scalable
 Resilent
 Automated
-Organizational(Conway's Law)
+Organizational(Conways Law)
 Replaceable
 
 
@@ -77,6 +82,7 @@ Metrics
 Service Mesh - how to controll and access
 
 Netflix: Zuul,Hystrix,Eureka,Ribbon,Servo,Genie,Sidecar,Mantis,Archaius
+
 Alibaba: Sentinel
 Spring cloud:
         Configuration,
@@ -107,6 +113,9 @@ Spring cloud:
          Introduction to Alibaba Sentinel(part of circuit breaker)
 
 Spring
+https://reflectoring.io/spring-boot-exception-handling/
+https://www.youtube.com/@MarcoBehler/playlists  -- it is better then below
+https://www.youtube.com/watch?v=RDFogWPnkOM  --important Marco Behle
 https://www.vinsguru.com/circuit-breaker-pattern/
 https://www.baeldung.com/spring-boot-start
 https://www.baeldung.com/spring-retry
@@ -116,8 +125,12 @@ https://www.baeldung.com/spring-security-5-oauth2-login
 https://www.baeldung.com/spring-security-oauth-jwt
 https://www.baeldung.com/learn-spring-security-oauth-course
 https://www.baeldung.com/spring-validate-list-controller
-
-
+https://www.marcobehler.com/guides/spring-boot-autoconfiguration
+https://www.baeldung.com/spring-boot-custom-auto-configuration
+https://devwithus.com/customize-spring-boot-auto-configuration/
+https://docs.spring.io/spring-boot/docs/1.5.11.RELEASE/reference/html/boot-features-developing-auto-configuration.html
+https://docs.spring.io/spring-boot/docs/2.0.x/reference/html/using-boot-auto-configuration.html#:~:text=Spring%20Boot%20auto%2Dconfiguration%20attempts,configures%20an%20in%2Dmemory%20database.
+https://github.com/snicoll/spring-boot-master-auto-configuration
 Spring cloud
 https://www.baeldung.com/category/spring/spring-cloud
 https://www.baeldung.com/spring-cloud-series
@@ -142,14 +155,17 @@ https://www.baeldung.com/java-atomikos
 https://www.baeldung.com/category/java/java-collections
 https://www.baeldung.com/java-find-map-max
 https://www.baeldung.com/java-copy-hashmap
-
+https://www.baeldung.com/java-count-duplicate-elements-arraylist
+https://www.baeldung.com/java-word-frequency
+https://www.baeldung.com/micrometer
 
 CircuitBreaker:
     Resilience4j :also provide RateLimiter, Bulkhead, Retry,TimeLimiter
     Hystrix:(Netflix Hystrix)
     Sentinel
     Spring Retry
-  Zuul is a JVM based router and server side load balancer by Netflix.
+ 
+Zuul is a JVM based router and server side load balancer by Netflix.
     And Spring Cloud has a nice integration with an embedded Zuul proxy – which is what we'll use here.
 
 

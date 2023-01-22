@@ -1,21 +1,48 @@
+Distributed Transaction: TRANSACTION on two more different database accross multiple  host or NETWORK(micro services
+	transaction manager is responsible for creating and managing a global transaction for all operations against such resources(local transaction)
+	As any other transactions it must have all four ACID (atomicity, consistency, isolation, durability) properties.
+
+Atomocity:  It guarantees all-or-nothing outcomes for the unit of works.
+There are two possible outcomes: 1) all operations successfully complete, or 2) none of the operations are performed at all due to a failure somewhere in the system.
+ACID is most commonly associated with transactions on a single database server, but distributed transactions extend that guarantee across multiple databases.
+https://hazelcast.com/glossary/distributed-transaction/
+
+Cosistency : 
+Isolation:
+Durability:
+
 Transction: Manage changes in one or more systems -Databases, message brokers,any other system
            It provide ACID charecteristics-(acronomy of Atomocity,Consis,Isol,Durab)
 		   deactivate autocommit, 
 Propagation: Carry forwarding to open transaction to next level -service to repo - 
             trying to resue the transaction
-			
+
+Distributed  transaction is the two-phase commit (2PC).
+	This algorithm is usually applied for updates able to commit in a short period of time, ranging from couple of milliseconds to couple of minutes
+There are also long-lived distributed transactions, for example a transaction to book a trip, which consists of booking a flight, a rental car and a hotel. Since booking the flight might take up to a day to get a confirmation, two-phase commit is not applicable here, it will lock the resources for this long. In this case more sophisticated techniques that involve multiple undo levels are used. The way you can undo the hotel booking by calling a desk and cancelling the reservation, a system can be designed to undo certain operations (unless they are irreversibly finished).
+
+In practice, long-lived distributed transactions are implemented in systems based on Web Services. Usually these transactions utilize principles of compensating transactions,
+
+
+**********************************************************************************************************************	
+Join,(under - previous/old/(same current/EXISTs/active)),suspend, (not prefer , support),transactionaly
+
 Required : support(join) a current transaction, create one if none exists
 
 Required new : Create a new transaction, and suspend the current or existing transasction if one exists.
 
 Supports- A (join)current or existing transaction, if transaction not exist then execute non transactionally .
-Not_supported: Execute non transactionally(it doesn't join the exisitng trans), suspend the current or existing transaction if one exists 
+
+Not_supported: Execute non transactionally(it doesnt join the exisitng trans), suspend the current or existing transaction if one exists 
 
 
 Never: Execute non-transactionally and never allow existing transaction, throw an exception if a transaction exists.
+
+Above 3 are mostly prefer to execute code in non transactional mode.
+
 Mandatory :Must be under a under active or existing transaction(must be under current transaction),
            Must support a transaction throw exception if non exists
-		   Exception if current process is not under transaction-"No existing transaction found for transaction marked with propagation 'mandatory'
+		   Exception if current process is not under transaction-"No existing transaction found for transaction marked with propagation 'mandatory'"
 
 NESTED(6);
 
@@ -26,13 +53,17 @@ NESTED(6);
 Isolation level [think in context of two session i.e session1(transaction1) vs session2(transaction2) ]
 
 DEFAULT(-1),
-READ_UNCOMMITTED(1),
-READ_COMMITTED(2),(oracle default) 
-REPEATABLE_READ(4),(mysql default)
-SERIALIZABLE(8);
 
-Issue with Read Phenomena like -
-      Dirty Read
+Isolation level: RRRS - inorder isolation which leads more locking increases and it decreases performance.
+
+1)	READ_UNCOMMITTED(1), (Dirty read problem)
+2)	READ_COMMITTED(2),(oracle default) ( Dirty read resolve but non repeatable read problem comes)
+3)	REPEATABLE_READ(4),(mysql default) ( non repeatable resolve but phantom prob comes i guess)
+4)	SERIALIZABLE(8)
+
+Read Phenomena Problem e.g
+      
+	  Dirty Read
 	  Non repeatable read
 	  Phantom read
 
@@ -57,6 +88,7 @@ session1											session 2
 
   
 Oracle only supports 3 transaction levels: Read Committed, Serializable, and Read-only. 
+
 In Oracle, Read Committed is the default and it uses Snapshot semantics.
 
 https://docs.oracle.com/javadb/10.8.3.0/devguide/cdevconcepts15366.html

@@ -1,4 +1,3 @@
-
 Core java  
   Checked exception and custome exception implementation
   Try with resouces-Autocloseable or closeable Inerface and supperesed exception  
@@ -19,7 +18,14 @@ Give examples of Immutable classes provided by Java.
 
 Loading sequence of static and non static members of a class
 
-java 8:     Stream API, Functional Interface,interface default/static and 			 private(java9), Lambda exp,Optional clss,
+java 8(SOFT Date):     Stream API:
+			Sequences of elements: 
+			It support(on classes) functional-style operations on streams of elements e.g filter,map,			
+			Optional class,		
+			Functional Interface,, Lambda exp,				
+			interface default/static and private(java9)-: 
+			(It was not possible to add new functionality to the exsiting interface Without forcing all of its exsting implementation classes to create of implementation of the new methods.
+			
 			New Date Time API
 			
 java 9 		Interface private method , Module system, Flow API ,RxJava,
@@ -127,7 +133,7 @@ Server side load balance  vs client side (Ribon ) load balance --
 Spring BootStarter
 SpringBoot common exception handle	
 @SpringBoot, @Service, @Component, @Repository
-@Conguration vs @EnableconfigurationJPA - 
+@Conguration vs @EnableAutoconfiguration
 @NoRepositoryBean
 Pessimistic vs Optimist -- interview
 
@@ -135,11 +141,14 @@ Pessimistic vs Optimist -- interview
 
 
 
-@Composite key in JPA 
+@Composite key in JPA : 
 
 circuit break,and Ribon for many instances in services
+
 How to call Once service to Other service- RestTemplate vs Webclient
 two algorith online test- 
+
+
 
 *****************************************************HIBERNATE************************************
 Hibernate  - Persistance Context(),Managed, Detaced, n+1 issue, lazy and eager loading 
@@ -156,16 +165,5 @@ types of index in db- primary key, foriegn key,
 
 
 
+java+sponsorship offered -keyword for LinkedIn
 
-
-
-	
-
-
-
-
-  
-  
-  
-  
-java+sponsorship offered
