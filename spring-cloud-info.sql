@@ -85,32 +85,32 @@ Netflix: Zuul,Hystrix,Eureka,Ribbon,Servo,Genie,Sidecar,Mantis,Archaius
 
 Alibaba: Sentinel
 Spring cloud:
-        Configuration,
-        zipkin,
-         Consule,
-         Heoku,
-         Data Flow,
-         Zuul and Zuul proxy,
-         LoadBalancer,
-         Config server,
-         Discovery server,
-         Gateway,
-         sidecar,
-         Feign Client,
-         Sleuth,
-         Dapr with Gateway,
-         Open Feign,
-         Open Service Broker,
-         Gateway WebFilter Factories,
-         Vault
-         Task,
-         Contract,
-         Security,
-         CLI,
-         Differences Between Netflix Feign and OpenFeign
-         Serverless Functions with Spring Cloud Function
-         Stream, Zipkin, Zookeeper, DataFlow, Bus
-         Introduction to Alibaba Sentinel(part of circuit breaker)
+	Configuration,
+	zipkin,
+	Consule,
+	Heoku,
+	Data Flow,
+	Zuul and Zuul proxy,
+	LoadBalancer,
+	Config server,
+	Discovery server,
+	Gateway,
+	sidecar,
+	Feign Client,
+	Sleuth,
+	Dapr with Gateway,
+	Open Feign,
+	Open Service Broker,
+	Gateway WebFilter Factories,
+	Vault
+	Task,
+	Contract,
+	Security,
+	CLI,
+	Differences Between Netflix Feign and OpenFeign
+	Serverless Functions with Spring Cloud Function
+	Stream, Zipkin, Zookeeper, DataFlow, Bus
+	Introduction to Alibaba Sentinel(part of circuit breaker)
 
 Spring
 https://reflectoring.io/spring-boot-exception-handling/

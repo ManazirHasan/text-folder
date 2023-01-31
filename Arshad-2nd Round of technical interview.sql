@@ -45,7 +45,8 @@
 21-	What technology used Open ID Connect or Identity Server?
 		[I was not able to answer this.... :( ]
 
-22-	In DB, what are the differences between Deterministic and Non-deterministic Functions ?			
+22-	In DB, what are the differences between Deterministic and Non-deterministic Functions ?	
+		
 23-	What are Aggregate functions ?
 		[I mentioned, functions working on multiple records/result set from DB like MAX, MIN, SUM...etc]
 

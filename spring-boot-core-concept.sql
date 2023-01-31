@@ -1,6 +1,6 @@
 ***********************************************Spring Boot(Auto Config)*****************************************************
 SpringBoot vs Spring :
-SpringBoot :Spring Boot builds on top of Spring Framework.
+SpringBoot :Spring Boot builds on top of Spring Framework. why it is called opionionated(self judgement)
 
 @SpringBoootApplication
 1) @SpringBootConfiguration, 2) @EnableAutoConfiguration , 3) @ComponenetScan
@@ -69,6 +69,7 @@ void m(){"above method"}
 @Email 
 
 Custome validator 
+
 @Target({ FIELD })
 @Retention(RUNTIME)
 @Constraint(validatedBy = IpAddressValidator.class)
